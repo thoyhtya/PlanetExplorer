@@ -72,7 +72,7 @@ public class PlanetExplorer {
 	}
 	
 	private void moveForward(){		
-		if( true ){
+		if( this.obstacleList.posY != 1 ){
 			switch (this.facing){
 				case 'N' : this.positionY += 1;
 					break;
