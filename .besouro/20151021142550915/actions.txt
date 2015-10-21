@@ -347,3 +347,6 @@ RefactoringAction 1445434087477 TestPlanetExplorer.java RENAME testExplorerComma
 RefactoringAction 1445434112091 TestPlanetExplorer.java RENAME testExplorerCommand_F_wObstacleAt_01_is_00N()=>void testExplorerCommand_F_wObstacleAt_01_is_00N01() METHOD
 RefactoringAction 1445434123160 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_wObstacleAt_10_is_00E()=>void testExplorerCommand_FRF_wObstacleAt_10_is_00E10() METHOD
 EditAction 1445434127695 TestPlanetExplorer.java 3869 20 39 19
+UnitTestCaseAction 1445434129476 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434129477 TestPlanetExplorer FAIL
+EditAction 1445434199789 PlanetExplorer.java 4157 8 25 0
