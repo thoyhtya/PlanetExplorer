@@ -172,3 +172,12 @@ UnitTestSessionAction 1445430011500 TestPlanetExplorer FAIL
 RefactoringAction 1445430081508 PlanetExplorer.java ADD void goAroundGrid FIELD
 RefactoringAction 1445430082529 PlanetExplorer.java RENAME goAroundGrid=>void goAroundGrid() METHOD
 EditAction 1445430179073 PlanetExplorer.java 3209 7 17 0
+UnitTestCaseAction 1445430179412 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445430179413 TestPlanetExplorer OK
+RefactoringAction 1445430214695 TestPlanetExplorer.java ADD void testExplorerCommand_B_is_02N()/2 METHOD
+RefactoringAction 1445430221221 TestPlanetExplorer.java RENAME testExplorerCommand_B_is_02N()/2=>void testExplorerCommand_L_is_02N() METHOD
+RefactoringAction 1445430222247 TestPlanetExplorer.java RENAME testExplorerCommand_L_is_02N()=>void testExplorerCommand_LF_is_02N() METHOD
+RefactoringAction 1445430229847 TestPlanetExplorer.java RENAME testExplorerCommand_LF_is_02N()=>void testExplorerCommand_LF_is_22N() METHOD
+RefactoringAction 1445430232373 TestPlanetExplorer.java RENAME testExplorerCommand_LF_is_22N()=>void testExplorerCommand_LF_is_20N() METHOD
+RefactoringAction 1445430234398 TestPlanetExplorer.java RENAME testExplorerCommand_LF_is_20N()=>void testExplorerCommand_LF_is_20W() METHOD
+EditAction 1445430248649 TestPlanetExplorer.java 3076 16 31 15

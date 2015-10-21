@@ -86,10 +86,16 @@ public class TestPlanetExplorer {
 		assertEquals("(1,2,E)", explorer.executeCommand("ffrf"));
 	}
 	
+	//tests for going over grid
 	@Test
 	public void testExplorerCommand_B_is_02N() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 		assertEquals("(0,2,N)", explorer.executeCommand("b"));
+	}
+	@Test
+	public void testExplorerCommand_LF_is_20W() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(2,0,W)", explorer.executeCommand("lf"));
 	}
 	
 }
