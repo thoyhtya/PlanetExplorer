@@ -54,9 +54,9 @@ public class TestPlanetExplorer {
 	}
 	//left
 	@Test
-	public void testExplorerCommand_L_is_00N() {
+	public void testExplorerCommand_L_is_00W() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
-		assertEquals("(0,0,E)", explorer.executeCommand("l"));
+		assertEquals("(0,0,W)", explorer.executeCommand("l"));
 	}
 	
 }

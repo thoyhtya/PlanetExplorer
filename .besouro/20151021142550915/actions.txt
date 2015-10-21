@@ -129,3 +129,8 @@ RefactoringAction 1445429672781 TestPlanetExplorer.java ADD void testExplorerCom
 RefactoringAction 1445429675800 TestPlanetExplorer.java RENAME testExplorerCommand_R_is_00E()/2=>void testExplorerCommand_L_is_00E() METHOD
 RefactoringAction 1445429678821 TestPlanetExplorer.java RENAME testExplorerCommand_L_is_00E()=>void testExplorerCommand_L_is_00N() METHOD
 EditAction 1445429720461 TestPlanetExplorer.java 1793 9 17 8
+UnitTestCaseAction 1445429722049 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445429722050 TestPlanetExplorer FAIL
+RefactoringAction 1445429733062 TestPlanetExplorer.java RENAME testExplorerCommand_L_is_00N()=>void testExplorerCommand_L_is_00E() METHOD
+RefactoringAction 1445429739082 TestPlanetExplorer.java RENAME testExplorerCommand_L_is_00E()=>void testExplorerCommand_L_is_00W() METHOD
+EditAction 1445429745749 TestPlanetExplorer.java 1793 9 17 8
