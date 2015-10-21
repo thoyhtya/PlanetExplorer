@@ -221,3 +221,8 @@ RefactoringAction 1445430620603 TestPlanetExplorer.java RENAME testExplorerComma
 RefactoringAction 1445430623629 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacleat_01_is_00N()=>void testExplorerCommand_F_wObstacleat_01_is_00N() METHOD
 RefactoringAction 1445430635342 TestPlanetExplorer.java RENAME testExplorerCommand_F_wObstacleat_01_is_00N()=>void testExplorerCommand_F_wObstacleAt_01_is_00N() METHOD
 EditAction 1445430655566 TestPlanetExplorer.java 3657 19 37 18
+UnitTestCaseAction 1445430657206 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445430657206 TestPlanetExplorer FAIL
+RefactoringAction 1445430883171 PlanetExplorer.java ADD int o FIELD
+RefactoringAction 1445430885191 PlanetExplorer.java RENAME o=>int obstacles FIELD
+EditAction 1445430921404 PlanetExplorer.java 3501 7 21 0

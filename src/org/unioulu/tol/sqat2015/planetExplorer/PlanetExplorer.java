@@ -9,6 +9,7 @@ public class PlanetExplorer {
 	int positionX;
 	int positionY;
 	char facing;
+	int obstacles[][];
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
