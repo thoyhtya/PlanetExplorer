@@ -143,3 +143,14 @@ RefactoringAction 1445429770221 TestPlanetExplorer.java RENAME testExplorerComma
 RefactoringAction 1445429773745 TestPlanetExplorer.java RENAME testExplorerCommand_RRRR_is_00N()/2=>void testExplorerCommand_LLLL_is_00N() METHOD
 RefactoringAction 1445429780767 TestPlanetExplorer.java RENAME testExplorerCommand_LLL_is_00W()=>void testExplorerCommand_LLL_is_00E() METHOD
 EditAction 1445429807291 TestPlanetExplorer.java 2329 12 23 11
+UnitTestCaseAction 1445429808915 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429808916 TestPlanetExplorer OK
+RefactoringAction 1445429846903 TestPlanetExplorer.java ADD void testExplorerCommand_LLLL_is_00N()/2 METHOD
+RefactoringAction 1445429857427 TestPlanetExplorer.java RENAME testExplorerCommand_LLLL_is_00N()/2=>void testExplorerCommand_F_is_00N() METHOD
+RefactoringAction 1445429858953 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_00N()=>void testExplorerCommand_FR_is_00N() METHOD
+RefactoringAction 1445429860478 TestPlanetExplorer.java RENAME testExplorerCommand_FR_is_00N()=>void testExplorerCommand_FRF_is_00N() METHOD
+RefactoringAction 1445429865000 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_is_00N()=>void testExplorerCommand_FRF_is_10N() METHOD
+RefactoringAction 1445429866025 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_is_10N()=>void testExplorerCommand_FRF_is_11N() METHOD
+RefactoringAction 1445429868047 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_is_11N()=>void testExplorerCommand_FRF_is_11() METHOD
+RefactoringAction 1445429870071 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_is_11()=>void testExplorerCommand_FRF_is_11E() METHOD
+EditAction 1445429884731 TestPlanetExplorer.java 2510 13 25 12
