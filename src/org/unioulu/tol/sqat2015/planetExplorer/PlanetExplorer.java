@@ -33,7 +33,7 @@ public class PlanetExplorer {
 //			}
 //		}
 		if(obstacles.length() > 4){
-			this.obstacleList = new Obstacle(obstacles.charAt(2), obstacles.charAt(4));
+			this.obstacleList = new Obstacle(Character.getNumericValue(obstacles.charAt(2)), Character.getNumericValue(obstacles.charAt(4)));
 		}else{
 			this.obstacleList = new Obstacle(-10,-10);
 		}
