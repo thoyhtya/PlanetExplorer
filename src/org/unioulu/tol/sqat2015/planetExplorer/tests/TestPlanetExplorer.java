@@ -15,7 +15,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExplorerCommand_F_is_01N() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
-		assertEquals("(01N)", explorer.executeCommand("f"));
+		assertEquals("(0,1,N)", explorer.executeCommand("f"));
 	}
 	
 }
