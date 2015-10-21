@@ -160,3 +160,10 @@ RefactoringAction 1445429940814 TestPlanetExplorer.java ADD void testExplorerCom
 RefactoringAction 1445429946839 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_is_11E()/2=>void testExplorerCommand_FFRF_is_11E() METHOD
 RefactoringAction 1445429956857 TestPlanetExplorer.java RENAME testExplorerCommand_FFRF_is_11E()=>PlanetExplorer explorer FIELD
 EditAction 1445429969971 TestPlanetExplorer.java 2693 14 27 13
+UnitTestCaseAction 1445429971605 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429971605 TestPlanetExplorer OK
+RefactoringAction 1445429979513 TestPlanetExplorer.java ADD void testExplorerCommand_FFRF_is_12E()/2 METHOD
+RefactoringAction 1445429984039 TestPlanetExplorer.java RENAME testExplorerCommand_FFRF_is_12E()/2=>void testExplorerCommand_B_is_12E() METHOD
+RefactoringAction 1445429992565 TestPlanetExplorer.java RENAME testExplorerCommand_B_is_12E()=>void testExplorerCommand_B_is_02E() METHOD
+RefactoringAction 1445429994588 TestPlanetExplorer.java RENAME testExplorerCommand_B_is_02E()=>void testExplorerCommand_B_is_02N() METHOD
+EditAction 1445430009850 TestPlanetExplorer.java 2870 15 29 14
