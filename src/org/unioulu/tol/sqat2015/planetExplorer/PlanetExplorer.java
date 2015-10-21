@@ -23,6 +23,8 @@ public class PlanetExplorer {
 		this.positionX = 0;
 		this.positionY = 0;
 		this.facing = 'N';
+		
+		System.out.println(nameOfValue);
 	}
 	
 	public String executeCommand(String command){
