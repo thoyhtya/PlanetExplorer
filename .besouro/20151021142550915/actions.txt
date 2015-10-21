@@ -34,3 +34,13 @@ UnitTestCaseAction 1445427837747 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445427837747 TestPlanetExplorer FAIL
 EditAction 1445427882462 PlanetExplorer.java 1338 2 1 0
 EditAction 1445427882536 TestPlanetExplorer.java 509 2 3 1
+CompilationAction 1445427882697 PlanetExplorer.java
+UnitTestCaseAction 1445427884194 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445427884195 TestPlanetExplorer FAIL
+CompilationAction 1445427902502 PlanetExplorer.java
+UnitTestCaseAction 1445427902710 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445427902711 TestPlanetExplorer OK
+RefactoringAction 1445427911701 TestPlanetExplorer.java ADD void testExplorerCommand_F_is_01N()/2 METHOD
+RefactoringAction 1445427929894 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_01N()/2=>void testExplorerCommand_empty_is_01N() METHOD
+RefactoringAction 1445427934910 TestPlanetExplorer.java RENAME testExplorerCommand_empty_is_01N()=>void testExplorerCommand_empty_is_00N() METHOD
+EditAction 1445427943208 TestPlanetExplorer.java 690 3 5 2
