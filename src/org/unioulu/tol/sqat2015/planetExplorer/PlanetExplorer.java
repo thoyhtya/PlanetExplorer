@@ -3,8 +3,8 @@ package org.unioulu.tol.sqat2015.planetExplorer;
 import java.util.ArrayList;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
-// ID:
-// Finish time:
+// ID: 103
+// Finish time: 21.10.2015 16:38
 public class PlanetExplorer {
 	int gridSizeX;
 	int gridSizeY;

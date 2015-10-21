@@ -369,3 +369,6 @@ UnitTestCaseAction 1445434584091 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445434584091 TestPlanetExplorer FAIL
 RefactoringAction 1445434615319 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_wObstacleAt_10_is_00E10()=>void testExplorerCommand_RF_wObstacleAt_10_is_00E10() METHOD
 EditAction 1445434621738 TestPlanetExplorer.java 3867 20 39 19
+UnitTestCaseAction 1445434623579 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445434623580 TestPlanetExplorer FAIL
+EditAction 1445434730041 PlanetExplorer.java 4311 8 25 0
