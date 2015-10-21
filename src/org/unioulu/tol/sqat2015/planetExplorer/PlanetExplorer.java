@@ -41,9 +41,9 @@ public class PlanetExplorer {
 				break;
 			case 'b' : this.moveBackward();
 				break;
-			case 'l' : this.positionY -= 1;
+			case 'l' : this.turnLeft();
 				break;
-			case 'r' : this.positionX -= 1;
+			case 'r' : this.turnRight();
 				break;	
 			}
 		}
@@ -74,6 +74,32 @@ public class PlanetExplorer {
 			case 'S' : this.positionY += 1;
 				break;
 			case 'W' : this.positionX += 1;
+				break;						
+		}		
+	}
+	
+	private void turnLeft(){
+		switch (this.facing){
+			case 'N' : this.facing = 'W';
+				break;
+			case 'E' : this.facing = 'N';
+				break;
+			case 'S' : this.facing = 'E';
+				break;
+			case 'W' : this.facing = 'S';
+				break;						
+		}		
+	}
+	
+	private void turnRight(){
+		switch (this.facing){
+			case 'N' : this.facing = 'E';
+				break;
+			case 'E' : this.facing = 'S';
+				break;
+			case 'S' : this.facing = 'W';
+				break;
+			case 'W' : this.facing = 'N';
 				break;						
 		}		
 	}

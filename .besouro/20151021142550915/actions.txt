@@ -87,3 +87,9 @@ RefactoringAction 1445429098226 PlanetExplorer.java ADD void moveForward()/2 MET
 RefactoringAction 1445429102747 PlanetExplorer.java RENAME moveForward()/2=>void moveBack() METHOD
 RefactoringAction 1445429104267 PlanetExplorer.java RENAME moveBack()=>void moveBackward() METHOD
 EditAction 1445429141135 PlanetExplorer.java 2472 4 9 0
+RefactoringAction 1445429195145 PlanetExplorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1445429201166 PlanetExplorer.java RENAME moveForward()/2=>void turn() METHOD
+RefactoringAction 1445429202687 PlanetExplorer.java RENAME turn()=>void turnLeft() METHOD
+RefactoringAction 1445429251396 PlanetExplorer.java ADD void turnLeft()/2 METHOD
+RefactoringAction 1445429256919 PlanetExplorer.java RENAME turnLeft()/2=>void turnRight() METHOD
+EditAction 1445429281198 PlanetExplorer.java 2978 6 11 0
