@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	int positionX;
 	int positionY;
 	char facing;
-	ArrayList<String> obstacles;
+	ArrayList<Obstacle> obstacles;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -26,17 +26,11 @@ public class PlanetExplorer {
 		this.positionY = 0;
 		this.facing = 'N';
 		
-		String[] obstaclelist;
-		if(obstacles.length() > 4){
-			obstaclelist = obstacles.split("(");
-		}else{
-			obstaclelist[0] = obstacles;
+		for(int i=0; i<obstacles.length(); i++){
+			if(obstacles.charAt(i) == '('){
+				this.obstacles.add(new Obstacle(obstacles.charAt(i+1), obstacles.charAt(i+3)));
+			}
 		}
-		
-		System.out.println(obstacles);
-		//System.out.println(obstaclelist);
-		
-		this.obstacles = new ArrayList<String>();
 	}
 	
 	public String executeCommand(String command){
@@ -71,15 +65,19 @@ public class PlanetExplorer {
 	}
 	
 	private void moveForward(){
-		switch (this.facing){
-			case 'N' : this.positionY += 1;
-				break;
-			case 'E' : this.positionX += 1;
-				break;
-			case 'S' : this.positionY -= 1;
-				break;
-			case 'W' : this.positionX -= 1;
-				break;						
+		Obstacle asd = new Obstacle(0,1);
+		
+		if(!this.obstacles.contains(asd)){
+			switch (this.facing){
+				case 'N' : this.positionY += 1;
+					break;
+				case 'E' : this.positionX += 1;
+					break;
+				case 'S' : this.positionY -= 1;
+					break;
+				case 'W' : this.positionX -= 1;
+					break;						
+			}
 		}
 		this.goAroundGrid();
 	}

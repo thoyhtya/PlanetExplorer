@@ -277,3 +277,6 @@ RefactoringAction 1445432312830 Obstacle.java ADD Obstacle() METHOD
 RefactoringAction 1445432314337 Obstacle.java RENAME Obstacle()=>Obstacle(int) METHOD
 RefactoringAction 1445432317849 Obstacle.java RENAME Obstacle(int)=>Obstacle(int, int) METHOD
 EditAction 1445432341977 Obstacle.java 194 1 2 0
+UnitTestCaseAction 1445432514026 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432514027 TestPlanetExplorer FAIL
+EditAction 1445432690439 PlanetExplorer.java 3818 7 23 0
