@@ -70,3 +70,6 @@ RefactoringAction 1445428364870 TestPlanetExplorer.java ADD void testExplorerCom
 RefactoringAction 1445428367388 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_01N()/2=>void testExplorerCommand_FF_is_01N() METHOD
 RefactoringAction 1445428370900 TestPlanetExplorer.java RENAME testExplorerCommand_FF_is_01N()=>void testExplorerCommand_FF_is_02N() METHOD
 EditAction 1445428382224 TestPlanetExplorer.java 868 4 7 3
+UnitTestCaseAction 1445428382521 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428382522 TestPlanetExplorer FAIL
+EditAction 1445428650165 PlanetExplorer.java 1756 2 7 0

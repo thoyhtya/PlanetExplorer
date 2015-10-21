@@ -36,12 +36,12 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		for(char c : command.toCharArray()){
-			
-		}
-		if(command == "f"){
-			return "(0,1,N)";
+			if(c == 'f'){
+				this.positionY += 1;
+			}
 		}
 		
-		return "(0,0,N)";
+		
+		return "(@posx,@posy,N)".replace("@posx", Integer.toString(this.positionX)).replace("@posy", Integer.toString(this.positionY));
 	}
 }
