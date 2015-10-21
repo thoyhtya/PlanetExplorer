@@ -336,3 +336,14 @@ RefactoringAction 1445433947232 PlanetExplorer.java ADD String build FIELD
 RefactoringAction 1445433950750 PlanetExplorer.java RENAME build=>String buildReturnString FIELD
 RefactoringAction 1445433952770 PlanetExplorer.java RENAME buildReturnString=>String buildReturnString() METHOD
 EditAction 1445434000300 PlanetExplorer.java 4139 8 25 0
+UnitTestCaseAction 1445434000645 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445434000646 TestPlanetExplorer OK
+RefactoringAction 1445434067273 TestPlanetExplorer.java ADD void testExplorerCommand_F_wObstacleAt_01_is_00N()/2 METHOD
+RefactoringAction 1445434075880 TestPlanetExplorer.java RENAME testExplorerCommand_F_wObstacleAt_01_is_00N()/2=>void testExplorerCommand_FR_wObstacleAt_01_is_00N() METHOD
+RefactoringAction 1445434077405 TestPlanetExplorer.java RENAME testExplorerCommand_FR_wObstacleAt_01_is_00N()=>void testExplorerCommand_FRF_wObstacleAt_01_is_00N() METHOD
+RefactoringAction 1445434081929 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_wObstacleAt_01_is_00N()=>void testExplorerCommand_FRF_wObstacleAt_10_is_00N() METHOD
+RefactoringAction 1445434085953 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_wObstacleAt_10_is_00N()=>void testExplorerCommand_FRF_wObstacleAt_10_is_00() METHOD
+RefactoringAction 1445434087477 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_wObstacleAt_10_is_00()=>void testExplorerCommand_FRF_wObstacleAt_10_is_00E() METHOD
+RefactoringAction 1445434112091 TestPlanetExplorer.java RENAME testExplorerCommand_F_wObstacleAt_01_is_00N()=>void testExplorerCommand_F_wObstacleAt_01_is_00N01() METHOD
+RefactoringAction 1445434123160 TestPlanetExplorer.java RENAME testExplorerCommand_FRF_wObstacleAt_10_is_00E()=>void testExplorerCommand_FRF_wObstacleAt_10_is_00E10() METHOD
+EditAction 1445434127695 TestPlanetExplorer.java 3869 20 39 19
