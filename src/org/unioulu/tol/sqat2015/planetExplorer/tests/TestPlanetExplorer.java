@@ -12,4 +12,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 	}
 	
+	@Test
+	public void testExplorerCommand_F_is_01N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(01N)", explorer.executeCommand("f"));
+	}
+	
 }

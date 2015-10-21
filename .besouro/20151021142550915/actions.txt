@@ -19,3 +19,14 @@ RefactoringAction 1445427681181 TestPlanetExplorer.java ADD void testExplorerini
 RefactoringAction 1445427701734 TestPlanetExplorer.java RENAME testExplorerinit()/2=>void testExplorerInit() METHOD
 RefactoringAction 1445427706246 TestPlanetExplorer.java REMOVE testExplorerinit() METHOD
 EditAction 1445427708485 TestPlanetExplorer.java 332 1 1 0
+UnitTestCaseAction 1445427708785 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445427708786 TestPlanetExplorer OK
+RefactoringAction 1445427714769 TestPlanetExplorer.java ADD void testExplorerInit()/2 METHOD
+RefactoringAction 1445427735284 TestPlanetExplorer.java RENAME testExplorerInit()/2=>void testExplorerCommand() METHOD
+RefactoringAction 1445427740297 TestPlanetExplorer.java RENAME testExplorerCommand()=>void testExplorerCommand_F() METHOD
+RefactoringAction 1445427741312 TestPlanetExplorer.java RENAME testExplorerCommand_F()=>void testExplorerCommand_F_() METHOD
+RefactoringAction 1445427742325 TestPlanetExplorer.java RENAME testExplorerCommand_F_()=>void testExplorerCommand_F_is() METHOD
+RefactoringAction 1445427745340 TestPlanetExplorer.java RENAME testExplorerCommand_F_is()=>void testExplorerCommand_F_is_() METHOD
+RefactoringAction 1445427749854 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_()=>void testExplorerCommand_F_is_01() METHOD
+RefactoringAction 1445427751367 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_01()=>void testExplorerCommand_F_is_01N() METHOD
+EditAction 1445427837381 TestPlanetExplorer.java 507 2 3 1
