@@ -262,3 +262,18 @@ EditAction 1445431895924 PlanetExplorer.java 3721 7 24 0
 UnitTestCaseAction 1445431897341 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445431897341 TestPlanetExplorer FAIL
 EditAction 1445431902463 PlanetExplorer.java 3722 7 16 0
+CompilationAction 1445431902954 PlanetExplorer.java
+UnitTestCaseAction 1445431905344 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431905345 TestPlanetExplorer FAIL
+CompilationAction 1445432005552 PlanetExplorer.java
+CompilationAction 1445432005572 PlanetExplorer.java
+UnitTestCaseAction 1445432007417 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445432007417 TestPlanetExplorer FAIL
+RefactoringAction 1445432261565 Obstacle.java ADD Obstacle.java CLASS
+FileOpenedAction 1445432261702 Obstacle.java 82 0 0 0
+RefactoringAction 1445432293233 Obstacle.java ADD int posX FIELD
+RefactoringAction 1445432295239 Obstacle.java ADD int posY FIELD
+RefactoringAction 1445432312830 Obstacle.java ADD Obstacle() METHOD
+RefactoringAction 1445432314337 Obstacle.java RENAME Obstacle()=>Obstacle(int) METHOD
+RefactoringAction 1445432317849 Obstacle.java RENAME Obstacle(int)=>Obstacle(int, int) METHOD
+EditAction 1445432341977 Obstacle.java 194 1 2 0
