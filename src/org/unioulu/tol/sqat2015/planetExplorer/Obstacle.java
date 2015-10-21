@@ -8,4 +8,9 @@ public class Obstacle {
 		this.posX = x;
 		this.posY = y;
 	}
+	
+    public boolean equals (Obstacle x) {
+        if (x.posX == posX && x.posY == posY) return true;
+        return false;
+    }
 }

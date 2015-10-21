@@ -303,3 +303,12 @@ EditAction 1445433049260 PlanetExplorer.java 3867 7 24 0
 UnitTestCaseAction 1445433051961 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433051962 TestPlanetExplorer FAIL
 EditAction 1445433111277 PlanetExplorer.java 3902 7 25 0
+UnitTestCaseAction 1445433112874 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433112875 TestPlanetExplorer FAIL
+RefactoringAction 1445433220784 Obstacle.java ADD void equals(Thing) METHOD
+RefactoringAction 1445433225792 Obstacle.java RENAME equals(Thing)=>void equals(Obstacle) METHOD
+RefactoringAction 1445433274303 Obstacle.java RENAME equals(Obstacle)=>void booleanequals(Obstacle) METHOD
+RefactoringAction 1445433276310 Obstacle.java RENAME booleanequals(Obstacle)=>boolean equals(Obstacle) METHOD
+RefactoringAction 1445433295322 Obstacle.java RENAME equals(Obstacle)=>boolean equals(Object) METHOD
+RefactoringAction 1445433339461 Obstacle.java RENAME equals(Object)=>boolean equals(Obstacle) METHOD
+EditAction 1445433346386 Obstacle.java 329 2 4 0
