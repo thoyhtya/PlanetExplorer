@@ -330,3 +330,9 @@ EditAction 1445433774831 PlanetExplorer.java 3970 7 22 0
 UnitTestCaseAction 1445433776561 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433776561 TestPlanetExplorer FAIL
 EditAction 1445433909266 PlanetExplorer.java 4088 7 24 0
+UnitTestCaseAction 1445433912198 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445433912198 TestPlanetExplorer OK
+RefactoringAction 1445433947232 PlanetExplorer.java ADD String build FIELD
+RefactoringAction 1445433950750 PlanetExplorer.java RENAME build=>String buildReturnString FIELD
+RefactoringAction 1445433952770 PlanetExplorer.java RENAME buildReturnString=>String buildReturnString() METHOD
+EditAction 1445434000300 PlanetExplorer.java 4139 8 25 0

@@ -64,17 +64,7 @@ public class PlanetExplorer {
 			}
 		}
 		
-		//build return string
-		String strX = Integer.toString(this.positionX);
-		String strY = Integer.toString(this.positionY);
-		String strF = "" + this.facing;
-		String strO = "";
-		
-		if(this.obstacleList.posY == 1){
-			strO = "(0,1)";
-		}
-		
-		return "(" + strX + "," + strY + "," + strF + ")" + strO;
+		return buildReturnString();
 	}
 	
 	private void moveForward(){		
@@ -148,5 +138,18 @@ public class PlanetExplorer {
 		if(this.positionX > this.gridSizeX - arrayoffset){
 			this.positionX = 0;
 		}
+	}
+	
+	private String buildReturnString(){
+		String strX = Integer.toString(this.positionX);
+		String strY = Integer.toString(this.positionY);
+		String strF = "" + this.facing;
+		String strO = "";
+		
+		if(this.obstacleList.posY == 1){
+			strO = "(0,1)";
+		}
+		
+		return "(" + strX + "," + strY + "," + strF + ")" + strO;
 	}
 }
