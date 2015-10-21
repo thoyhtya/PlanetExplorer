@@ -44,3 +44,12 @@ RefactoringAction 1445427911701 TestPlanetExplorer.java ADD void testExplorerCom
 RefactoringAction 1445427929894 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_01N()/2=>void testExplorerCommand_empty_is_01N() METHOD
 RefactoringAction 1445427934910 TestPlanetExplorer.java RENAME testExplorerCommand_empty_is_01N()=>void testExplorerCommand_empty_is_00N() METHOD
 EditAction 1445427943208 TestPlanetExplorer.java 690 3 5 2
+UnitTestCaseAction 1445427943512 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445427943513 TestPlanetExplorer FAIL
+RefactoringAction 1445428004455 PlanetExplorer.java ADD int si FIELD
+RefactoringAction 1445428007471 PlanetExplorer.java RENAME si=>int grix FIELD
+RefactoringAction 1445428010985 PlanetExplorer.java RENAME grix=>int gridSize FIELD
+RefactoringAction 1445428015001 PlanetExplorer.java RENAME gridSize=>int gridSizeX FIELD
+RefactoringAction 1445428024041 PlanetExplorer.java ADD int gridSize FIELD
+RefactoringAction 1445428025055 PlanetExplorer.java RENAME gridSize=>int gridSizeY FIELD
+EditAction 1445428077395 PlanetExplorer.java 1434 2 2 0
