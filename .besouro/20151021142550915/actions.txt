@@ -64,3 +64,9 @@ RefactoringAction 1445428254088 PlanetExplorer.java ADD int position FIELD
 RefactoringAction 1445428255103 PlanetExplorer.java RENAME position=>int positionY FIELD
 RefactoringAction 1445428265354 PlanetExplorer.java ADD char facing FIELD
 EditAction 1445428354562 PlanetExplorer.java 1647 2 8 0
+UnitTestCaseAction 1445428354901 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428354902 TestPlanetExplorer OK
+RefactoringAction 1445428364870 TestPlanetExplorer.java ADD void testExplorerCommand_F_is_01N()/2 METHOD
+RefactoringAction 1445428367388 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_01N()/2=>void testExplorerCommand_FF_is_01N() METHOD
+RefactoringAction 1445428370900 TestPlanetExplorer.java RENAME testExplorerCommand_FF_is_01N()=>void testExplorerCommand_FF_is_02N() METHOD
+EditAction 1445428382224 TestPlanetExplorer.java 868 4 7 3
