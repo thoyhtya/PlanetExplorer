@@ -187,3 +187,10 @@ EditAction 1445430280049 PlanetExplorer.java 3292 7 18 0
 UnitTestCaseAction 1445430281695 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445430281696 TestPlanetExplorer FAIL
 EditAction 1445430316304 PlanetExplorer.java 3314 7 19 0
+UnitTestCaseAction 1445430317918 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445430317919 TestPlanetExplorer OK
+RefactoringAction 1445430326673 TestPlanetExplorer.java ADD void testExplorerCommand_LF_is_20W()/2 METHOD
+RefactoringAction 1445430333199 TestPlanetExplorer.java RENAME testExplorerCommand_LF_is_20W()/2=>void testExplorerCommand_FFF_is_20W() METHOD
+RefactoringAction 1445430336224 TestPlanetExplorer.java RENAME testExplorerCommand_FFF_is_20W()=>void testExplorerCommand_FFF_is_00W() METHOD
+RefactoringAction 1445430338249 TestPlanetExplorer.java RENAME testExplorerCommand_FFF_is_00W()=>void testExplorerCommand_FFF_is_00N() METHOD
+EditAction 1445430348944 TestPlanetExplorer.java 3254 17 33 16

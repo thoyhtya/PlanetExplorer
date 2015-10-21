@@ -97,5 +97,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 		assertEquals("(2,0,W)", explorer.executeCommand("lf"));
 	}
+	@Test
+	public void testExplorerCommand_FFF_is_00N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,N)", explorer.executeCommand("fff"));
+	}
 	
 }
