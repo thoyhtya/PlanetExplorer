@@ -30,3 +30,6 @@ RefactoringAction 1445427745340 TestPlanetExplorer.java RENAME testExplorerComma
 RefactoringAction 1445427749854 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_()=>void testExplorerCommand_F_is_01() METHOD
 RefactoringAction 1445427751367 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_01()=>void testExplorerCommand_F_is_01N() METHOD
 EditAction 1445427837381 TestPlanetExplorer.java 507 2 3 1
+UnitTestCaseAction 1445427837747 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445427837747 TestPlanetExplorer FAIL
+EditAction 1445427882462 PlanetExplorer.java 1338 2 1 0
