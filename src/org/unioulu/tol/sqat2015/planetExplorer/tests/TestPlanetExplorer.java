@@ -36,4 +36,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,E)", explorer.executeCommand("r"));
 	}
 	
+	@Test
+	public void testExplorerCommand_RR_is_00S() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,S)", explorer.executeCommand("rr"));
+	}
+	
 }
