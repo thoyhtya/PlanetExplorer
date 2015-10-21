@@ -1,5 +1,7 @@
 package org.unioulu.tol.sqat2015.planetExplorer;
 
+import java.util.List;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
@@ -9,7 +11,7 @@ public class PlanetExplorer {
 	int positionX;
 	int positionY;
 	char facing;
-	int obstacles[][];
+	List<String> obstacles;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -24,7 +26,9 @@ public class PlanetExplorer {
 		this.positionY = 0;
 		this.facing = 'N';
 		
-		System.out.println(nameOfValue);
+		System.out.println(obstacles);
+		//.split("(?<=\\G.{4})")
+		this.obstacles.add(obstacles);
 	}
 	
 	public String executeCommand(String command){

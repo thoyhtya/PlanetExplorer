@@ -227,3 +227,15 @@ RefactoringAction 1445430883171 PlanetExplorer.java ADD int o FIELD
 RefactoringAction 1445430885191 PlanetExplorer.java RENAME o=>int obstacles FIELD
 EditAction 1445430921404 PlanetExplorer.java 3501 7 21 0
 EditAction 1445431002146 PlanetExplorer.java 3541 7 22 0
+CompilationAction 1445431002417 PlanetExplorer.java
+UnitTestCaseAction 1445431006643 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431006643 TestPlanetExplorer FAIL
+CompilationAction 1445431014579 PlanetExplorer.java
+UnitTestCaseAction 1445431015770 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431015770 TestPlanetExplorer FAIL
+UnitTestCaseAction 1445431023448 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445431023449 TestPlanetExplorer FAIL
+RefactoringAction 1445431257938 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1445431266519 PlanetExplorer.java ADD List<String> obstacles FIELD
+RefactoringAction 1445431271244 PlanetExplorer.java ADD import java.util.List IMPORT
+EditAction 1445431510581 PlanetExplorer.java 3632 7 23 0
