@@ -102,5 +102,10 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 		assertEquals("(0,0,N)", explorer.executeCommand("fff"));
 	}
+	@Test
+	public void testExplorerCommand_RFFF_is_00E() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,E)", explorer.executeCommand("rfff"));
+	}
 	
 }

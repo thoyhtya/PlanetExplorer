@@ -197,3 +197,9 @@ EditAction 1445430348944 TestPlanetExplorer.java 3254 17 33 16
 UnitTestCaseAction 1445430350546 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445430350546 TestPlanetExplorer FAIL
 EditAction 1445430411078 PlanetExplorer.java 3480 7 21 0
+UnitTestCaseAction 1445430412664 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445430412665 TestPlanetExplorer OK
+RefactoringAction 1445430419409 TestPlanetExplorer.java ADD void testExplorerCommand_FFF_is_00N()/2 METHOD
+RefactoringAction 1445430426455 TestPlanetExplorer.java RENAME testExplorerCommand_FFF_is_00N()/2=>void testExplorerCommand_RFFF_is_00N() METHOD
+RefactoringAction 1445430431479 TestPlanetExplorer.java RENAME testExplorerCommand_RFFF_is_00N()=>void testExplorerCommand_RFFF_is_00E() METHOD
+EditAction 1445430439882 TestPlanetExplorer.java 3434 18 35 17
