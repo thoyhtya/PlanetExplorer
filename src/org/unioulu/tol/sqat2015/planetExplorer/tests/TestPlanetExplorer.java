@@ -58,5 +58,20 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 		assertEquals("(0,0,W)", explorer.executeCommand("l"));
 	}
+	@Test
+	public void testExplorerCommand_LL_is_00S() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,S)", explorer.executeCommand("ll"));
+	}	
+	@Test
+	public void testExplorerCommand_LLL_is_00E() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,E)", explorer.executeCommand("lll"));
+	}	
+	@Test
+	public void testExplorerCommand_LLLL_is_00N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,N)", explorer.executeCommand("llll"));
+	}
 	
 }
