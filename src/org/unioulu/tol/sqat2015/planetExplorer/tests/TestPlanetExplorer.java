@@ -48,4 +48,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,W)", explorer.executeCommand("rrr"));
 	}
 	
+	@Test
+	public void testExplorerCommand_RRRR_is_00N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(0,0,N)", explorer.executeCommand("rrrr"));
+	}
+	
 }
