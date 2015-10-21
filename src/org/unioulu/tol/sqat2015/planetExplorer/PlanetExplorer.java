@@ -78,7 +78,8 @@ public class PlanetExplorer {
 				break;
 			case 'W' : this.positionX += 1;
 				break;						
-		}		
+		}
+		this.goAroundGrid();
 	}
 	
 	private void turnLeft(){
@@ -105,5 +106,13 @@ public class PlanetExplorer {
 			case 'W' : this.facing = 'N';
 				break;						
 		}		
+	}
+	
+	private void goAroundGrid(){
+		int arrayoffset = 1;
+		
+		if(this.positionY < 0){
+			this.positionY = this.gridSizeY - arrayoffset;
+		}
 	}
 }
