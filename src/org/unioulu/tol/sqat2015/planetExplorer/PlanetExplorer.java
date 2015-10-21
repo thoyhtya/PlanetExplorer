@@ -67,7 +67,7 @@ public class PlanetExplorer {
 	
 	private void moveForward(){
 		Obstacle asd = new Obstacle(0,1);
-		
+		System.out.println(this.obstacles);
 		if( !this.obstacles.contains(asd) ){
 			switch (this.facing){
 				case 'N' : this.positionY += 1;
