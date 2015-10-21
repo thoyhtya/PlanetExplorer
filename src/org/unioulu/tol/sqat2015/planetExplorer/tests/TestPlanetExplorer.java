@@ -108,4 +108,12 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,E)", explorer.executeCommand("rfff"));
 	}
 	
+	//test for obstacles
+	@Test
+	public void testExplorerCommand_F_wObstacleAt_01_is_00N() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,1)");
+		assertEquals("(0,0,N)", explorer.executeCommand("f"));
+	}
+	
+	
 }

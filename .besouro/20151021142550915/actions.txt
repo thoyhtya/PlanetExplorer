@@ -206,3 +206,18 @@ EditAction 1445430439882 TestPlanetExplorer.java 3434 18 35 17
 UnitTestCaseAction 1445430442598 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445430442599 TestPlanetExplorer FAIL
 EditAction 1445430467366 PlanetExplorer.java 3480 7 21 0
+UnitTestCaseAction 1445430469006 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445430469007 TestPlanetExplorer OK
+RefactoringAction 1445430514211 TestPlanetExplorer.java ADD void testExplorerCommand_RFFF_is_00E()/2 METHOD
+RefactoringAction 1445430521237 TestPlanetExplorer.java RENAME testExplorerCommand_RFFF_is_00E()/2=>void testExplorerCommand_F_is_00E() METHOD
+RefactoringAction 1445430526766 TestPlanetExplorer.java RENAME testExplorerCommand_F_is_00E()=>void testExplorerCommand_w_F_is_00E() METHOD
+RefactoringAction 1445430530793 TestPlanetExplorer.java RENAME testExplorerCommand_w_F_is_00E()=>void testExplorerCommand_wObstacles_F_is_00E() METHOD
+RefactoringAction 1445430543820 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacles_F_is_00E()=>void testExplorerCommand_wObstacle_F_is_00E() METHOD
+RefactoringAction 1445430545847 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacle_F_is_00E()=>void testExplorerCommand_wObstacleat_F_is_00E() METHOD
+RefactoringAction 1445430549375 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacleat_F_is_00E()=>void testExplorerCommand_wObstacleat__F_is_00E() METHOD
+RefactoringAction 1445430550404 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacleat__F_is_00E()=>void testExplorerCommand_wObstacleat_01_F_is_00E() METHOD
+RefactoringAction 1445430556929 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacleat_01_F_is_00E()=>void testExplorerCommand_wObstacleat_01_F_is_00N() METHOD
+RefactoringAction 1445430620603 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacleat_01_F_is_00N()=>void testExplorerCommand_wObstacleat_01_is_00N() METHOD
+RefactoringAction 1445430623629 TestPlanetExplorer.java RENAME testExplorerCommand_wObstacleat_01_is_00N()=>void testExplorerCommand_F_wObstacleat_01_is_00N() METHOD
+RefactoringAction 1445430635342 TestPlanetExplorer.java RENAME testExplorerCommand_F_wObstacleat_01_is_00N()=>void testExplorerCommand_F_wObstacleAt_01_is_00N() METHOD
+EditAction 1445430655566 TestPlanetExplorer.java 3657 19 37 18
