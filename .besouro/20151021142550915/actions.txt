@@ -4,3 +4,12 @@ RefactoringAction 1445427594184 TestPlanetExplorer.java RENAME testExl()=>void t
 RefactoringAction 1445427636096 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 RefactoringAction 1445427641079 TestPlanetExplorer.java REMOVE import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
 EditAction 1445427644250 TestPlanetExplorer.java 264 1 0 0
+CompilationAction 1445427644469 TestPlanetExplorer.java
+CompilationAction 1445427644469 TestPlanetExplorer.java
+UnitTestCaseAction 1445427649422 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445427649425 TestPlanetExplorer FAIL
+RefactoringAction 1445427654931 TestPlanetExplorer.java ADD import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer IMPORT
+CompilationAction 1445427657883 TestPlanetExplorer.java
+UnitTestCaseAction 1445427659940 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445427659940 TestPlanetExplorer FAIL
+EditAction 1445427665294 TestPlanetExplorer.java 329 1 1 0
