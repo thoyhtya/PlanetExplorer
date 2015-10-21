@@ -315,3 +315,6 @@ EditAction 1445433346386 Obstacle.java 329 2 4 0
 UnitTestCaseAction 1445433347975 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433347976 TestPlanetExplorer FAIL
 EditAction 1445433434609 PlanetExplorer.java 3803 7 23 0
+UnitTestCaseAction 1445433434936 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433434936 TestPlanetExplorer FAIL
+EditAction 1445433526139 TestPlanetExplorer.java 3662 19 37 18

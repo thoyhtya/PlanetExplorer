@@ -112,7 +112,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void testExplorerCommand_F_wObstacleAt_01_is_00N() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"(0,1)");
-		assertEquals("(0,0,N)", explorer.executeCommand("f"));
+		assertEquals("(0,0,N)(0,1)", explorer.executeCommand("f"));
 	}
 	
 	
