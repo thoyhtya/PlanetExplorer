@@ -53,3 +53,6 @@ RefactoringAction 1445428015001 PlanetExplorer.java RENAME gridSize=>int gridSiz
 RefactoringAction 1445428024041 PlanetExplorer.java ADD int gridSize FIELD
 RefactoringAction 1445428025055 PlanetExplorer.java RENAME gridSize=>int gridSizeY FIELD
 EditAction 1445428077395 PlanetExplorer.java 1434 2 2 0
+UnitTestCaseAction 1445428077704 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445428077705 TestPlanetExplorer FAIL
+EditAction 1445428126305 TestPlanetExplorer.java 689 3 5 2
