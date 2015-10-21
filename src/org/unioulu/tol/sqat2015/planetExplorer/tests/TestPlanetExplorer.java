@@ -8,7 +8,8 @@ import org.unioulu.tol.sqat2015.planetExplorer.PlanetExplorer;
 public class TestPlanetExplorer {
 
 	@Test
-	public void testExplorerinit() {
+	public void testExplorerInit() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
 	}
+	
 }

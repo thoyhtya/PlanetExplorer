@@ -13,3 +13,9 @@ CompilationAction 1445427657883 TestPlanetExplorer.java
 UnitTestCaseAction 1445427659940 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445427659940 TestPlanetExplorer FAIL
 EditAction 1445427665294 TestPlanetExplorer.java 329 1 1 0
+UnitTestCaseAction 1445427665602 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445427665603 TestPlanetExplorer OK
+RefactoringAction 1445427681181 TestPlanetExplorer.java ADD void testExplorerinit()/2 METHOD
+RefactoringAction 1445427701734 TestPlanetExplorer.java RENAME testExplorerinit()/2=>void testExplorerInit() METHOD
+RefactoringAction 1445427706246 TestPlanetExplorer.java REMOVE testExplorerinit() METHOD
+EditAction 1445427708485 TestPlanetExplorer.java 332 1 1 0
