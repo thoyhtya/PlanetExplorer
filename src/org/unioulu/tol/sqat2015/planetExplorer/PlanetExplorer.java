@@ -46,6 +46,15 @@ public class PlanetExplorer {
 	}
 	
 	private void moveForward(){
-		this.positionY += 1;
+		switch (this.facing){
+			case 'N' : this.positionY += 1;
+				break;
+			case 'E' : this.positionX += 1;
+				break;
+			case 'S' : this.positionY -= 1;
+				break;
+			case 'W' : this.positionX -= 1;
+				break;						
+		}		
 	}
 }
