@@ -122,7 +122,7 @@ public class PlanetExplorer {
 			this.positionY = 0;
 		}
 		if(this.positionX > this.gridSizeX - arrayoffset){
-			this.positionY = 0;
+			this.positionX = 0;
 		}
 	}
 }
