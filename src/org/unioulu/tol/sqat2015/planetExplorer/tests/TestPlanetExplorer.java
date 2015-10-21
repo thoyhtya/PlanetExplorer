@@ -80,4 +80,10 @@ public class TestPlanetExplorer {
 		assertEquals("(1,1,E)", explorer.executeCommand("frf"));
 	}
 	
+	@Test
+	public void testExplorerCommand_FFRF_is_12E() {
+		PlanetExplorer explorer = new PlanetExplorer(3,3,"");
+		assertEquals("(1,2,E)", explorer.executeCommand("ffrf"));
+	}
+	
 }
