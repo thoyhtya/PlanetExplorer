@@ -318,3 +318,9 @@ EditAction 1445433434609 PlanetExplorer.java 3803 7 23 0
 UnitTestCaseAction 1445433434936 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1445433434936 TestPlanetExplorer FAIL
 EditAction 1445433526139 TestPlanetExplorer.java 3662 19 37 18
+UnitTestCaseAction 1445433527894 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1445433527895 TestPlanetExplorer FAIL
+RefactoringAction 1445433588641 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1445433590161 PlanetExplorer.java ADD Obstacle obstacles FIELD
+RefactoringAction 1445433627441 PlanetExplorer.java RENAME obstacles=>Obstacle obstacleList FIELD
+EditAction 1445433732360 PlanetExplorer.java 3947 7 22 0

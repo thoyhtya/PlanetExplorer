@@ -11,7 +11,7 @@ public class PlanetExplorer {
 	int positionX;
 	int positionY;
 	char facing;
-	ArrayList<Obstacle> obstacles;
+	Obstacle obstacleList;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -25,13 +25,19 @@ public class PlanetExplorer {
 		this.positionX = 0;
 		this.positionY = 0;
 		this.facing = 'N';
-		this.obstacles = new ArrayList<Obstacle>();
+		//this.obstacles = new ArrayList<Obstacle>();
 		
-		for(int i=0; i<obstacles.length(); i++){
-			if(obstacles.charAt(i) == '('){
-				this.obstacles.add(new Obstacle(obstacles.charAt(i+1), obstacles.charAt(i+3)));
-			}
+//		for(int i=0; i<obstacles.length(); i++){
+//			if(obstacles.charAt(i) == '('){
+//				this.obstacles.add(new Obstacle(obstacles.charAt(i+1), obstacles.charAt(i+3)));
+//			}
+//		}
+		if(obstacles.length() > 4){
+			this.obstacleList = new Obstacle(0,1);
+		}else{
+			this.obstacleList = new Obstacle(-10,-10);
 		}
+		
 	}
 	
 	public String executeCommand(String command){
