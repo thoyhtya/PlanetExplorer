@@ -25,6 +25,7 @@ public class PlanetExplorer {
 		this.positionX = 0;
 		this.positionY = 0;
 		this.facing = 'N';
+		this.obstacles = new ArrayList<Obstacle>();
 		
 		for(int i=0; i<obstacles.length(); i++){
 			if(obstacles.charAt(i) == '('){
@@ -67,7 +68,7 @@ public class PlanetExplorer {
 	private void moveForward(){
 		Obstacle asd = new Obstacle(0,1);
 		
-		if( this.obstacles == null ){
+		if( !this.obstacles.contains(asd) ){
 			switch (this.facing){
 				case 'N' : this.positionY += 1;
 					break;
