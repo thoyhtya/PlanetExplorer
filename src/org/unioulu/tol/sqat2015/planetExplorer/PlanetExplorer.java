@@ -114,5 +114,8 @@ public class PlanetExplorer {
 		if(this.positionY < 0){
 			this.positionY = this.gridSizeY - arrayoffset;
 		}
+		if(this.positionX < 0){
+			this.positionX = this.gridSizeX - arrayoffset;
+		}
 	}
 }
