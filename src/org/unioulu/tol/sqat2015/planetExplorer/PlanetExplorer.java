@@ -65,7 +65,8 @@ public class PlanetExplorer {
 				break;
 			case 'W' : this.positionX -= 1;
 				break;						
-		}		
+		}
+		this.goAroundGrid();
 	}
 	
 	private void moveBackward(){
