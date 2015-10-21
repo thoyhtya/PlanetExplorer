@@ -48,8 +48,11 @@ public class PlanetExplorer {
 			}
 		}
 		
+		String strX = Integer.toString(this.positionX);
+		String strY = Integer.toString(this.positionY);
+		String strF = "" + this.facing;
 		
-		return "(@posx,@posy,N)".replace("@posx", Integer.toString(this.positionX)).replace("@posy", Integer.toString(this.positionY));
+		return "(" + strX + "," + strY + "," + strF + ")";
 	}
 	
 	private void moveForward(){
