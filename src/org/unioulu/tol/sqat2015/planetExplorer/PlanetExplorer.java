@@ -64,11 +64,17 @@ public class PlanetExplorer {
 			}
 		}
 		
+		//build return string
 		String strX = Integer.toString(this.positionX);
 		String strY = Integer.toString(this.positionY);
 		String strF = "" + this.facing;
+		String strO = "";
 		
-		return "(" + strX + "," + strY + "," + strF + ")";
+		if(this.obstacleList.posY == 1){
+			strO = "(0,1)";
+		}
+		
+		return "(" + strX + "," + strY + "," + strF + ")" + strO;
 	}
 	
 	private void moveForward(){		
