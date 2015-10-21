@@ -115,9 +115,9 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)(0,1)", explorer.executeCommand("f"));
 	}
 	@Test
-	public void testExplorerCommand_FRF_wObstacleAt_10_is_00E10() {
+	public void testExplorerCommand_RF_wObstacleAt_10_is_00E10() {
 		PlanetExplorer explorer = new PlanetExplorer(3,3,"(1,0)");
-		assertEquals("(0,0,E)(1,0)", explorer.executeCommand("frf"));
+		assertEquals("(0,0,E)(1,0)", explorer.executeCommand("rf"));
 	}
 	
 	
