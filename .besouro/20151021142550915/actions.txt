@@ -81,3 +81,9 @@ EditAction 1445428724318 PlanetExplorer.java 1816 3 8 0
 UnitTestCaseAction 1445428724633 TestPlanetExplorer.java OK
 UnitTestSessionAction 1445428724634 TestPlanetExplorer OK
 EditAction 1445428952490 PlanetExplorer.java 2022 3 8 0
+UnitTestCaseAction 1445428954043 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445428954043 TestPlanetExplorer OK
+RefactoringAction 1445429098226 PlanetExplorer.java ADD void moveForward()/2 METHOD
+RefactoringAction 1445429102747 PlanetExplorer.java RENAME moveForward()/2=>void moveBack() METHOD
+RefactoringAction 1445429104267 PlanetExplorer.java RENAME moveBack()=>void moveBackward() METHOD
+EditAction 1445429141135 PlanetExplorer.java 2472 4 9 0

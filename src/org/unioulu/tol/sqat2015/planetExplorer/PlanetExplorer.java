@@ -35,9 +35,16 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		for(char c : command.toCharArray()){
-			if(c == 'f'){
-				this.moveForward();
+		for(char oneCommand : command.toCharArray()){
+			switch(oneCommand){
+			case 'f' : this.moveForward();
+				break;
+			case 'b' : this.moveBackward();
+				break;
+			case 'l' : this.positionY -= 1;
+				break;
+			case 'r' : this.positionX -= 1;
+				break;	
 			}
 		}
 		
@@ -54,6 +61,19 @@ public class PlanetExplorer {
 			case 'S' : this.positionY -= 1;
 				break;
 			case 'W' : this.positionX -= 1;
+				break;						
+		}		
+	}
+	
+	private void moveBackward(){
+		switch (this.facing){
+			case 'N' : this.positionY -= 1;
+				break;
+			case 'E' : this.positionX -= 1;
+				break;
+			case 'S' : this.positionY += 1;
+				break;
+			case 'W' : this.positionX += 1;
 				break;						
 		}		
 	}
