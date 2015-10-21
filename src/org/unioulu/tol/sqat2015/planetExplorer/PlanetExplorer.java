@@ -146,8 +146,8 @@ public class PlanetExplorer {
 		String strF = "" + this.facing;
 		String strO = "";
 		
-		if(this.obstacleList.posY == 1){
-			strO = "(0,1)";
+		if(this.obstacleList.posY != -10){
+			strO = "(" + this.obstacleList.posX + "," + this.obstacleList.posY + ")";
 		}
 		
 		return "(" + strX + "," + strY + "," + strF + ")" + strO;
