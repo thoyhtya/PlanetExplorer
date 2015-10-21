@@ -26,8 +26,11 @@ public class PlanetExplorer {
 		this.positionY = 0;
 		this.facing = 'N';
 		
+		String [] obstaclelist = obstacles.split("(?<=\\G.{4})");
+		
 		System.out.println(obstacles);
-		//.split("(?<=\\G.{4})")
+		System.out.println(obstaclelist);
+		
 		this.obstacles = new ArrayList<String>();
 	}
 	
