@@ -37,11 +37,15 @@ public class PlanetExplorer {
 		 */
 		for(char c : command.toCharArray()){
 			if(c == 'f'){
-				this.positionY += 1;
+				this.moveForward();
 			}
 		}
 		
 		
 		return "(@posx,@posy,N)".replace("@posx", Integer.toString(this.positionX)).replace("@posy", Integer.toString(this.positionY));
+	}
+	
+	private void moveForward(){
+		this.positionY += 1;
 	}
 }
