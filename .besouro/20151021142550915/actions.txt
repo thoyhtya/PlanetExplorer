@@ -111,3 +111,9 @@ RefactoringAction 1445429587914 TestPlanetExplorer.java ADD void testExplorerCom
 RefactoringAction 1445429592432 TestPlanetExplorer.java RENAME testExplorerCommand_R_is_00E()/2=>void testExplorerCommand_RR_is_00E() METHOD
 RefactoringAction 1445429595450 TestPlanetExplorer.java RENAME testExplorerCommand_RR_is_00E()=>void testExplorerCommand_RR_is_00S() METHOD
 EditAction 1445429603094 TestPlanetExplorer.java 1224 6 11 5
+UnitTestCaseAction 1445429604803 TestPlanetExplorer.java OK
+UnitTestSessionAction 1445429604804 TestPlanetExplorer OK
+RefactoringAction 1445429611036 TestPlanetExplorer.java ADD void testExplorerCommand_RR_is_00S()/2 METHOD
+RefactoringAction 1445429614053 TestPlanetExplorer.java RENAME testExplorerCommand_RR_is_00S()/2=>void testExplorerCommand_RRR_is_00S() METHOD
+RefactoringAction 1445429626586 TestPlanetExplorer.java RENAME testExplorerCommand_RRR_is_00S()=>void testExplorerCommand_RRR_is_00W() METHOD
+EditAction 1445429635987 TestPlanetExplorer.java 1405 7 13 6
